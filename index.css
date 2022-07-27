@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background: #24272e;
+}
+header{
+    background: white;
+    padding: 20px;
+    text-align: center;
+    padding: 10px auto;
+}
+
+header > h1{
+    color: #24272e;
+    font-family: cursive;
+    text-align: center;
+}
+
+
+.choice > img{
+    width: 100px;
+    border-radius: 50%;
+    
+}
+
+.score{
+    border:  2px solid white;
+    width: 120px;
+    margin: 20px auto;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px 24px;
+    font-family: cursive;
+    position: relative;
+}
+
+
+.badge{
+    background-color: #e2584d;
+    color: white;
+    font-size: 10px;
+    padding: 3px  2px;
+    font-family: cursive;
+}
+
+
+
+#label{
+    position: absolute;
+    top: 20px;
+    left: -15px;
+}
+
+#comp{
+    position: absolute;
+    top: 20px;
+    left: 95px;
+}
+
+.result{
+    text-align: center;
+    font-size:27px;
+    font-weight: bold;
+    color: white;
+    font-family: cursive;
+}
+.choice{
+    display: inline-block;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 20px;
+    transition: all 0.3s ease-in;
+}
+
+.choice > img{
+    width: 70px;
+}
+
+#r > img{
+    height: 80px;
+}
+
+#s > img{
+    height: 80px;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background: #525b6d;
+
+}
+
+.choices{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.rps{
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.rps>img{
+    width:300px;
+}
+
+
+.message{
+    text-align: center;
+    font-size:1em;
+    font-weight: bold;
+    color: white;
+}
+
+.green-glow{
+    border: 4px solid #07e55c;
+    box-shadow: 0 0 9ox #e2584d;
+}
+
+.red-glow{
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 9px #d01115;
+}
+
+.gray-glow{
+    border: 4px solid #464647;
+    box-shadow: 0 0 9px #25292b;
+}
