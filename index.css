@@ -7,9 +7,10 @@
 
 body{
     background: #24272e;
+    
 }
 header{
-    background: white;
+    background: #fffff;
     padding: 20px;
     text-align: center;
     padding: 10px auto;
@@ -29,10 +30,10 @@ header > h1{
 }
 
 .score{
-    border:  2px solid white;
+    border:  2px solid #fffff;
     width: 120px;
     margin: 20px auto;
-    color: white;
+    color: #fffff;
     font-size: 15px;
     border-radius: 4px;
     text-align: center;
@@ -44,7 +45,7 @@ header > h1{
 
 .badge{
     background-color: #e2584d;
-    color: white;
+    color: #fffff;
     font-size: 10px;
     padding: 3px  2px;
     font-family: cursive;
@@ -68,12 +69,12 @@ header > h1{
     text-align: center;
     font-size:27px;
     font-weight: bold;
-    color: white;
+    color: #fffff;
     font-family: cursive;
 }
 .choice{
     display: inline-block;
-    border: 4px solid white;
+    border: 4px solid #fffff;
     border-radius: 50%;
     padding: 10px;
     margin: 0 20px;
@@ -118,20 +119,20 @@ header > h1{
     text-align: center;
     font-size:1em;
     font-weight: bold;
-    color: white;
+    color: #fffff;
 }
 
 .green-glow{
-    border: 4px solid #07e55c;
+    border: 3px solid #07e55c;
     box-shadow: 0 0 9ox #e2584d;
 }
 
 .red-glow{
-    border: 4px solid #fc121b;
+    border: 3px solid #fc121b;
     box-shadow: 0 0 9px #d01115;
 }
 
 .gray-glow{
-    border: 4px solid #464647;
+    border: 3px solid #464647;
     box-shadow: 0 0 9px #25292b;
 }
